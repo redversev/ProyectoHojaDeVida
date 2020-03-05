@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css?family=Spartan&display=swap');
+body{
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+}
+.principal_gc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.principal.ct{
+    max-width: 500px;
+}
+.principal{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 20px 0;
+    text-align: center;
+}
+.principal h1{
+    margin: 0;
+}
+.principal h2{
+    margin: 0;
+}
+.principal .datos{
+    padding: 0 20px 20px;
+    text-align: right;
+}
+.principal_ct .principal{
+    border-bottom: 1px solid lightgray;
+}
+.encabezado{
+    background-color: #EFF8FB;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+.encabezado .contenido{
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.encabezado .contenido h1{
+    margin: 0;
+    padding: 0;
+}
+.encabezado .contenido h2{
+    margin: 0;
+    padding: 0;
+    font-size: .9em;
+    padding: 4px 0;
+    color: grey;
+}
+.encabezado .fotoDatos{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.encabezado .fotoDatos .datos{
+    padding: 0 0 0 20px;
+}
+.encabezado .contenido .foto{
+    max-width: 100px;
+}
+.encabezado .contenido .foto img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.encabezado .contenido .botones{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.encabezado .contenido .botones .boton{
+    color: grey;
+    border: grey solid 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: auto 5px;
+    transition: .5s background ease;
+}
+.encabezado .contenido .botones .boton:hover{
+    background-color: grey;
+}
+.encabezado .contenido .botones .boton:hover a{
+    color: white;
+}
+.encabezado .contenido .botones .boton a{
+    text-decoration: none;
+    color: grey;
+}
+.encabezado .contenido .botones .active{
+    background-color: grey;
+}
+.encabezado .contenido .botones .active a{
+    color: white;
+}
+
+.links .botones{
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px
+}
+.links  .botones .boton{
+    color: grey;
+    border: grey solid 1px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: auto 5px;
+    transition: .5s background ease;
+}
+.links  .botones .boton:hover{
+    background-color: grey;
+}
+.links  .botones .boton:hover a{
+    color: white;
+}
+.links  .botones .boton a{
+    text-decoration: none;
+    color: grey;
+}
+.resumen{
+    margin: 20px auto 0;
+    max-width: 1200px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.resumen .foto{
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.resumen .foto img{
+    max-width: 100%;
+}
+.resumen .perfil{
+    padding: 10px 20px 20px 20px;
+    width: auto;
+    max-width: 800px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.apartado{
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+.apartado .contenido .item{
+    background-color: rgba(0,0,0,0.05);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 
+    10px auto;
+}
+.apartado .contenido h3{
+    margin: 0;
+    padding: 0;
+}
+.apartado .contenido .item .nombre{
+    font-weight: 800;
+    padding: 5px 0;
+}
+.apartado .contenido .item .titulo{
+    padding: 10px 0;
+}
+.apartado .contenido .item .direccion{
+    font-size: .9em;
+    padding: 5px 0;
+    color: grey;
+}
+.apartado .contenido .item .web{
+    font-size: .9em;
+    color: lightseagreen;
+}
+.apartado .contenido .item .cargo{
+    padding: 5px 0;
+}
+
+.formulario{
+    margin: auto;
+    background-color: rgba(0,0,0,0.05);
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formulario input{
+    padding: 10px 10px;
+    width: 100%;
+    margin: 10px auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.formulario textarea{
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.formulario .boton_enviar{
+    width: 100%;
+    text-align: right;
+}
+.formulario .boton_enviar button{
+    padding: 7px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    font-size: 1.1em;
+    background-color: grey;
+    color: white;
+    text-align: right;
+}
+.error{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(216, 11, 11, 0.05);
+    border: 1px solid rgba(216, 11, 11, 0.5);
+    color: red;
+    text-align: center;
+}
+.link_volver{
+    padding: 10px 0;
+}
+.link_volver a{
+    text-decoration: none;
+}
+.registro_exitoso{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgba(11, 216, 90, 0.05);
+    border: 1px solid rgba(86, 216, 11, 0.5);
+    color: green;
+    text-align: center;   
+}
+
+@media (max-width: 1000px) {
+    .encabezado .contenido{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .encabezado .contenido .botones{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .encabezado .contenido .botones .boton{
+        margin: 5px 2px;
+    }
+  }
